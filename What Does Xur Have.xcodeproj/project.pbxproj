@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0298491C4A92AC00F52C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298481C4A92AC00F52C0F /* AppDelegate.swift */; };
+		5D02984B1C4A92AC00F52C0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02984A1C4A92AC00F52C0F /* ViewController.swift */; };
+		5D02984E1C4A92AC00F52C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D02984C1C4A92AC00F52C0F /* Main.storyboard */; };
+		5D0298501C4A92AC00F52C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D02984F1C4A92AC00F52C0F /* Assets.xcassets */; };
+		5D0298531C4A92AC00F52C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0298511C4A92AC00F52C0F /* LaunchScreen.storyboard */; };
+		5D02985E1C4A92AC00F52C0F /* What_Does_Xur_HaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02985D1C4A92AC00F52C0F /* What_Does_Xur_HaveTests.swift */; };
+		5D0298691C4A92AC00F52C0F /* What_Does_Xur_HaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298681C4A92AC00F52C0F /* What_Does_Xur_HaveUITests.swift */; };
+		5D02986E1C4A92AC00F52C0F /* What Does Xur Have WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5D02986D1C4A92AC00F52C0F /* What Does Xur Have WatchKit App.app */; };
+		5D0298741C4A92AC00F52C0F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0298721C4A92AC00F52C0F /* Interface.storyboard */; };
+		5D0298761C4A92AC00F52C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0298751C4A92AC00F52C0F /* Assets.xcassets */; };
+		5D02987D1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5D02987C1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D0298841C4A92AC00F52C0F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298831C4A92AC00F52C0F /* InterfaceController.swift */; };
+		5D0298861C4A92AC00F52C0F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298851C4A92AC00F52C0F /* ExtensionDelegate.swift */; };
+		5D0298881C4A92AC00F52C0F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298871C4A92AC00F52C0F /* NotificationController.swift */; };
+		5D02988A1C4A92AC00F52C0F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298891C4A92AC00F52C0F /* ComplicationController.swift */; };
+		5D02988C1C4A92AC00F52C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D02988B1C4A92AC00F52C0F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D02985A1C4A92AC00F52C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D02983D1C4A92AC00F52C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0298441C4A92AC00F52C0F;
+			remoteInfo = "What Does Xur Have";
+		};
+		5D0298651C4A92AC00F52C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D02983D1C4A92AC00F52C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0298441C4A92AC00F52C0F;
+			remoteInfo = "What Does Xur Have";
+		};
+		5D02986F1C4A92AC00F52C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D02983D1C4A92AC00F52C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D02986C1C4A92AC00F52C0F;
+			remoteInfo = "What Does Xur Have WatchKit App";
+		};
+		5D02987E1C4A92AC00F52C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D02983D1C4A92AC00F52C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D02987B1C4A92AC00F52C0F;
+			remoteInfo = "What Does Xur Have WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D0298931C4A92AC00F52C0F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D02987D1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298971C4A92AC00F52C0F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5D02986E1C4A92AC00F52C0F /* What Does Xur Have WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D0298451C4A92AC00F52C0F /* What Does Xur Have.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Does Xur Have.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0298481C4A92AC00F52C0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D02984A1C4A92AC00F52C0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D02984D1C4A92AC00F52C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D02984F1C4A92AC00F52C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D0298521C4A92AC00F52C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D0298541C4A92AC00F52C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0298591C4A92AC00F52C0F /* What Does Xur HaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What Does Xur HaveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D02985D1C4A92AC00F52C0F /* What_Does_Xur_HaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_Does_Xur_HaveTests.swift; sourceTree = "<group>"; };
+		5D02985F1C4A92AC00F52C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0298641C4A92AC00F52C0F /* What Does Xur HaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What Does Xur HaveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0298681C4A92AC00F52C0F /* What_Does_Xur_HaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_Does_Xur_HaveUITests.swift; sourceTree = "<group>"; };
+		5D02986A1C4A92AC00F52C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D02986D1C4A92AC00F52C0F /* What Does Xur Have WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Does Xur Have WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0298731C4A92AC00F52C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5D0298751C4A92AC00F52C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D0298771C4A92AC00F52C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D02987C1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "What Does Xur Have WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0298821C4A92AC00F52C0F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5D0298831C4A92AC00F52C0F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5D0298851C4A92AC00F52C0F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5D0298871C4A92AC00F52C0F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5D0298891C4A92AC00F52C0F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		5D02988B1C4A92AC00F52C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D02988D1C4A92AC00F52C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D0298421C4A92AC00F52C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298561C4A92AC00F52C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298611C4A92AC00F52C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298791C4A92AC00F52C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D02983C1C4A92AC00F52C0F = {
+			isa = PBXGroup;
+			children = (
+				5D0298471C4A92AC00F52C0F /* What Does Xur Have */,
+				5D02985C1C4A92AC00F52C0F /* What Does Xur HaveTests */,
+				5D0298671C4A92AC00F52C0F /* What Does Xur HaveUITests */,
+				5D0298711C4A92AC00F52C0F /* What Does Xur Have WatchKit App */,
+				5D0298801C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension */,
+				5D0298461C4A92AC00F52C0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D0298461C4A92AC00F52C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D0298451C4A92AC00F52C0F /* What Does Xur Have.app */,
+				5D0298591C4A92AC00F52C0F /* What Does Xur HaveTests.xctest */,
+				5D0298641C4A92AC00F52C0F /* What Does Xur HaveUITests.xctest */,
+				5D02986D1C4A92AC00F52C0F /* What Does Xur Have WatchKit App.app */,
+				5D02987C1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D0298471C4A92AC00F52C0F /* What Does Xur Have */ = {
+			isa = PBXGroup;
+			children = (
+				5D0298481C4A92AC00F52C0F /* AppDelegate.swift */,
+				5D02984A1C4A92AC00F52C0F /* ViewController.swift */,
+				5D02984C1C4A92AC00F52C0F /* Main.storyboard */,
+				5D02984F1C4A92AC00F52C0F /* Assets.xcassets */,
+				5D0298511C4A92AC00F52C0F /* LaunchScreen.storyboard */,
+				5D0298541C4A92AC00F52C0F /* Info.plist */,
+			);
+			path = "What Does Xur Have";
+			sourceTree = "<group>";
+		};
+		5D02985C1C4A92AC00F52C0F /* What Does Xur HaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D02985D1C4A92AC00F52C0F /* What_Does_Xur_HaveTests.swift */,
+				5D02985F1C4A92AC00F52C0F /* Info.plist */,
+			);
+			path = "What Does Xur HaveTests";
+			sourceTree = "<group>";
+		};
+		5D0298671C4A92AC00F52C0F /* What Does Xur HaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D0298681C4A92AC00F52C0F /* What_Does_Xur_HaveUITests.swift */,
+				5D02986A1C4A92AC00F52C0F /* Info.plist */,
+			);
+			path = "What Does Xur HaveUITests";
+			sourceTree = "<group>";
+		};
+		5D0298711C4A92AC00F52C0F /* What Does Xur Have WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5D0298721C4A92AC00F52C0F /* Interface.storyboard */,
+				5D0298751C4A92AC00F52C0F /* Assets.xcassets */,
+				5D0298771C4A92AC00F52C0F /* Info.plist */,
+			);
+			path = "What Does Xur Have WatchKit App";
+			sourceTree = "<group>";
+		};
+		5D0298801C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5D0298831C4A92AC00F52C0F /* InterfaceController.swift */,
+				5D0298851C4A92AC00F52C0F /* ExtensionDelegate.swift */,
+				5D0298871C4A92AC00F52C0F /* NotificationController.swift */,
+				5D0298891C4A92AC00F52C0F /* ComplicationController.swift */,
+				5D02988B1C4A92AC00F52C0F /* Assets.xcassets */,
+				5D02988D1C4A92AC00F52C0F /* Info.plist */,
+				5D0298811C4A92AC00F52C0F /* Supporting Files */,
+			);
+			path = "What Does Xur Have WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5D0298811C4A92AC00F52C0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D0298821C4A92AC00F52C0F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D0298441C4A92AC00F52C0F /* What Does Xur Have */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0298981C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur Have" */;
+			buildPhases = (
+				5D0298411C4A92AC00F52C0F /* Sources */,
+				5D0298421C4A92AC00F52C0F /* Frameworks */,
+				5D0298431C4A92AC00F52C0F /* Resources */,
+				5D0298971C4A92AC00F52C0F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D0298701C4A92AC00F52C0F /* PBXTargetDependency */,
+			);
+			name = "What Does Xur Have";
+			productName = "What Does Xur Have";
+			productReference = 5D0298451C4A92AC00F52C0F /* What Does Xur Have.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D0298581C4A92AC00F52C0F /* What Does Xur HaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D02989B1C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur HaveTests" */;
+			buildPhases = (
+				5D0298551C4A92AC00F52C0F /* Sources */,
+				5D0298561C4A92AC00F52C0F /* Frameworks */,
+				5D0298571C4A92AC00F52C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D02985B1C4A92AC00F52C0F /* PBXTargetDependency */,
+			);
+			name = "What Does Xur HaveTests";
+			productName = "What Does Xur HaveTests";
+			productReference = 5D0298591C4A92AC00F52C0F /* What Does Xur HaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D0298631C4A92AC00F52C0F /* What Does Xur HaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D02989E1C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur HaveUITests" */;
+			buildPhases = (
+				5D0298601C4A92AC00F52C0F /* Sources */,
+				5D0298611C4A92AC00F52C0F /* Frameworks */,
+				5D0298621C4A92AC00F52C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D0298661C4A92AC00F52C0F /* PBXTargetDependency */,
+			);
+			name = "What Does Xur HaveUITests";
+			productName = "What Does Xur HaveUITests";
+			productReference = 5D0298641C4A92AC00F52C0F /* What Does Xur HaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5D02986C1C4A92AC00F52C0F /* What Does Xur Have WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0298941C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur Have WatchKit App" */;
+			buildPhases = (
+				5D02986B1C4A92AC00F52C0F /* Resources */,
+				5D0298931C4A92AC00F52C0F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D02987F1C4A92AC00F52C0F /* PBXTargetDependency */,
+			);
+			name = "What Does Xur Have WatchKit App";
+			productName = "What Does Xur Have WatchKit App";
+			productReference = 5D02986D1C4A92AC00F52C0F /* What Does Xur Have WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5D02987B1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0298901C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur Have WatchKit Extension" */;
+			buildPhases = (
+				5D0298781C4A92AC00F52C0F /* Sources */,
+				5D0298791C4A92AC00F52C0F /* Frameworks */,
+				5D02987A1C4A92AC00F52C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What Does Xur Have WatchKit Extension";
+			productName = "What Does Xur Have WatchKit Extension";
+			productReference = 5D02987C1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D02983D1C4A92AC00F52C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joseph Pellegrino";
+				TargetAttributes = {
+					5D0298441C4A92AC00F52C0F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5D0298581C4A92AC00F52C0F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5D0298441C4A92AC00F52C0F;
+					};
+					5D0298631C4A92AC00F52C0F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5D0298441C4A92AC00F52C0F;
+					};
+					5D02986C1C4A92AC00F52C0F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5D02987B1C4A92AC00F52C0F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5D0298401C4A92AC00F52C0F /* Build configuration list for PBXProject "What Does Xur Have" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D02983C1C4A92AC00F52C0F;
+			productRefGroup = 5D0298461C4A92AC00F52C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D0298441C4A92AC00F52C0F /* What Does Xur Have */,
+				5D0298581C4A92AC00F52C0F /* What Does Xur HaveTests */,
+				5D0298631C4A92AC00F52C0F /* What Does Xur HaveUITests */,
+				5D02986C1C4A92AC00F52C0F /* What Does Xur Have WatchKit App */,
+				5D02987B1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D0298431C4A92AC00F52C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0298531C4A92AC00F52C0F /* LaunchScreen.storyboard in Resources */,
+				5D0298501C4A92AC00F52C0F /* Assets.xcassets in Resources */,
+				5D02984E1C4A92AC00F52C0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298571C4A92AC00F52C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298621C4A92AC00F52C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D02986B1C4A92AC00F52C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0298761C4A92AC00F52C0F /* Assets.xcassets in Resources */,
+				5D0298741C4A92AC00F52C0F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D02987A1C4A92AC00F52C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D02988C1C4A92AC00F52C0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D0298411C4A92AC00F52C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D02984B1C4A92AC00F52C0F /* ViewController.swift in Sources */,
+				5D0298491C4A92AC00F52C0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298551C4A92AC00F52C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D02985E1C4A92AC00F52C0F /* What_Does_Xur_HaveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298601C4A92AC00F52C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0298691C4A92AC00F52C0F /* What_Does_Xur_HaveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0298781C4A92AC00F52C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0298881C4A92AC00F52C0F /* NotificationController.swift in Sources */,
+				5D02988A1C4A92AC00F52C0F /* ComplicationController.swift in Sources */,
+				5D0298861C4A92AC00F52C0F /* ExtensionDelegate.swift in Sources */,
+				5D0298841C4A92AC00F52C0F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D02985B1C4A92AC00F52C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0298441C4A92AC00F52C0F /* What Does Xur Have */;
+			targetProxy = 5D02985A1C4A92AC00F52C0F /* PBXContainerItemProxy */;
+		};
+		5D0298661C4A92AC00F52C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0298441C4A92AC00F52C0F /* What Does Xur Have */;
+			targetProxy = 5D0298651C4A92AC00F52C0F /* PBXContainerItemProxy */;
+		};
+		5D0298701C4A92AC00F52C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D02986C1C4A92AC00F52C0F /* What Does Xur Have WatchKit App */;
+			targetProxy = 5D02986F1C4A92AC00F52C0F /* PBXContainerItemProxy */;
+		};
+		5D02987F1C4A92AC00F52C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D02987B1C4A92AC00F52C0F /* What Does Xur Have WatchKit Extension */;
+			targetProxy = 5D02987E1C4A92AC00F52C0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D02984C1C4A92AC00F52C0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D02984D1C4A92AC00F52C0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D0298511C4A92AC00F52C0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0298521C4A92AC00F52C0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5D0298721C4A92AC00F52C0F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0298731C4A92AC00F52C0F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D02988E1C4A92AC00F52C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D02988F1C4A92AC00F52C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D0298911C4A92AC00F52C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "What Does Xur Have WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-Have.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		5D0298921C4A92AC00F52C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "What Does Xur Have WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-Have.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		5D0298951C4A92AC00F52C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = What_Does_Xur_Have_WatchKit_Extension;
+				INFOPLIST_FILE = "What Does Xur Have WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-Have.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		5D0298961C4A92AC00F52C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = What_Does_Xur_Have_WatchKit_Extension;
+				INFOPLIST_FILE = "What Does Xur Have WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-Have.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		5D0298991C4A92AC00F52C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What Does Xur Have/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-Have";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D02989A1C4A92AC00F52C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What Does Xur Have/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-Have";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D02989C1C4A92AC00F52C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "What Does Xur HaveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-HaveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What Does Xur Have.app/What Does Xur Have";
+			};
+			name = Debug;
+		};
+		5D02989D1C4A92AC00F52C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "What Does Xur HaveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-HaveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What Does Xur Have.app/What Does Xur Have";
+			};
+			name = Release;
+		};
+		5D02989F1C4A92AC00F52C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "What Does Xur HaveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-HaveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "What Does Xur Have";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5D0298A01C4A92AC00F52C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "What Does Xur HaveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-HaveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "What Does Xur Have";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D0298401C4A92AC00F52C0F /* Build configuration list for PBXProject "What Does Xur Have" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D02988E1C4A92AC00F52C0F /* Debug */,
+				5D02988F1C4A92AC00F52C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0298901C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur Have WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0298911C4A92AC00F52C0F /* Debug */,
+				5D0298921C4A92AC00F52C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D0298941C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur Have WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0298951C4A92AC00F52C0F /* Debug */,
+				5D0298961C4A92AC00F52C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D0298981C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur Have" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0298991C4A92AC00F52C0F /* Debug */,
+				5D02989A1C4A92AC00F52C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D02989B1C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur HaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D02989C1C4A92AC00F52C0F /* Debug */,
+				5D02989D1C4A92AC00F52C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D02989E1C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur HaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D02989F1C4A92AC00F52C0F /* Debug */,
+				5D0298A01C4A92AC00F52C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D02983D1C4A92AC00F52C0F /* Project object */;
+}
