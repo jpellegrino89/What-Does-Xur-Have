@@ -23,6 +23,12 @@
 		5D0298881C4A92AC00F52C0F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298871C4A92AC00F52C0F /* NotificationController.swift */; };
 		5D02988A1C4A92AC00F52C0F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298891C4A92AC00F52C0F /* ComplicationController.swift */; };
 		5D02988C1C4A92AC00F52C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D02988B1C4A92AC00F52C0F /* Assets.xcassets */; };
+		5D0298A91C4A949D00F52C0F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298A81C4A949D00F52C0F /* SwiftyJSON.swift */; };
+		5D0298AA1C4A949D00F52C0F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298A81C4A949D00F52C0F /* SwiftyJSON.swift */; };
+		5D0298AB1C4A953300F52C0F /* SwiftyJSON.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0298A81C4A949D00F52C0F /* SwiftyJSON.swift */; };
+		5D0298AC1C4A954500F52C0F /* SwiftyJSON.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0298A81C4A949D00F52C0F /* SwiftyJSON.swift */; };
+		5D0298AF1C4A964D00F52C0F /* InventoryTableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298AE1C4A964D00F52C0F /* InventoryTableRow.swift */; };
+		5D0298B01C4A964D00F52C0F /* InventoryTableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0298AE1C4A964D00F52C0F /* InventoryTableRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +113,9 @@
 		5D0298891C4A92AC00F52C0F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		5D02988B1C4A92AC00F52C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D02988D1C4A92AC00F52C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0298A11C4A93FD00F52C0F /* What Does Xur Have WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "What Does Xur Have WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D0298A81C4A949D00F52C0F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5D0298AE1C4A964D00F52C0F /* InventoryTableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0298AC1C4A954500F52C0F /* SwiftyJSON.swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0298AB1C4A953300F52C0F /* SwiftyJSON.swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +155,7 @@
 		5D02983C1C4A92AC00F52C0F = {
 			isa = PBXGroup;
 			children = (
+				5D0298A81C4A949D00F52C0F /* SwiftyJSON.swift */,
 				5D0298471C4A92AC00F52C0F /* What Does Xur Have */,
 				5D02985C1C4A92AC00F52C0F /* What Does Xur HaveTests */,
 				5D0298671C4A92AC00F52C0F /* What Does Xur HaveUITests */,
@@ -216,6 +228,7 @@
 				5D02988B1C4A92AC00F52C0F /* Assets.xcassets */,
 				5D02988D1C4A92AC00F52C0F /* Info.plist */,
 				5D0298811C4A92AC00F52C0F /* Supporting Files */,
+				5D0298AE1C4A964D00F52C0F /* InventoryTableRow.swift */,
 			);
 			path = "What Does Xur Have WatchKit Extension";
 			sourceTree = "<group>";
@@ -224,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				5D0298821C4A92AC00F52C0F /* PushNotificationPayload.apns */,
+				5D0298A11C4A93FD00F52C0F /* What Does Xur Have WatchKit App-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -420,6 +434,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0298AF1C4A964D00F52C0F /* InventoryTableRow.swift in Sources */,
+				5D0298A91C4A949D00F52C0F /* SwiftyJSON.swift in Sources */,
 				5D02984B1C4A92AC00F52C0F /* ViewController.swift in Sources */,
 				5D0298491C4A92AC00F52C0F /* AppDelegate.swift in Sources */,
 			);
@@ -447,7 +463,9 @@
 			files = (
 				5D0298881C4A92AC00F52C0F /* NotificationController.swift in Sources */,
 				5D02988A1C4A92AC00F52C0F /* ComplicationController.swift in Sources */,
+				5D0298B01C4A964D00F52C0F /* InventoryTableRow.swift in Sources */,
 				5D0298861C4A92AC00F52C0F /* ExtensionDelegate.swift in Sources */,
+				5D0298AA1C4A949D00F52C0F /* SwiftyJSON.swift in Sources */,
 				5D0298841C4A92AC00F52C0F /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,13 +638,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = What_Does_Xur_Have_WatchKit_Extension;
 				INFOPLIST_FILE = "What Does Xur Have WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-Have.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "What Does Xur Have WatchKit Extension/What Does Xur Have WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -636,13 +658,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = What_Does_Xur_Have_WatchKit_Extension;
 				INFOPLIST_FILE = "What Does Xur Have WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ready.What-Does-Xur-Have.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "What Does Xur Have WatchKit Extension/What Does Xur Have WatchKit App-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
