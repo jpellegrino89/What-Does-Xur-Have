@@ -222,13 +222,13 @@
 			isa = PBXGroup;
 			children = (
 				5D0298831C4A92AC00F52C0F /* InterfaceController.swift */,
+				5D0298AE1C4A964D00F52C0F /* InventoryTableRow.swift */,
 				5D0298851C4A92AC00F52C0F /* ExtensionDelegate.swift */,
 				5D0298871C4A92AC00F52C0F /* NotificationController.swift */,
 				5D0298891C4A92AC00F52C0F /* ComplicationController.swift */,
 				5D02988B1C4A92AC00F52C0F /* Assets.xcassets */,
 				5D02988D1C4A92AC00F52C0F /* Info.plist */,
 				5D0298811C4A92AC00F52C0F /* Supporting Files */,
-				5D0298AE1C4A964D00F52C0F /* InventoryTableRow.swift */,
 			);
 			path = "What Does Xur Have WatchKit Extension";
 			sourceTree = "<group>";
@@ -762,6 +762,7 @@
 				5D0298921C4A92AC00F52C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D0298941C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur Have WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +771,7 @@
 				5D0298961C4A92AC00F52C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D0298981C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur Have" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +780,7 @@
 				5D02989A1C4A92AC00F52C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D02989B1C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur HaveTests" */ = {
 			isa = XCConfigurationList;
@@ -786,6 +789,7 @@
 				5D02989D1C4A92AC00F52C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D02989E1C4A92AC00F52C0F /* Build configuration list for PBXNativeTarget "What Does Xur HaveUITests" */ = {
 			isa = XCConfigurationList;
@@ -794,6 +798,7 @@
 				5D0298A01C4A92AC00F52C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

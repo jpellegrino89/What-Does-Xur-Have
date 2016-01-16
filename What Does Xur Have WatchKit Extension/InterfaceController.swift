@@ -17,6 +17,8 @@ class InterfaceController: WKInterfaceController {
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+        getXurInventory()
+
         
         // Configure interface objects here.
     }
@@ -31,6 +33,56 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
     
+    
+    private func getItemDetails(itemHash: String) -> String
+    {
+        let urlString = ("https://www.bungie.net/Platform/Destiny/Manifest/6/\(itemHash)/")
+        var itemName = "itemName"
+        
+        let request = NSMutableURLRequest(URL
+            : NSURL(string: urlString)!)
+        let session = NSURLSession.sharedSession()
+        request.addValue(api, forHTTPHeaderField: "X-Api-Key")
+        request.HTTPMethod = "GET" // or POST or whatever
+        
+        //print(request)
+        
+        let data = session.dataTaskWithRequest(request, completionHandler:{ data, response, error -> Void in
+            
+            if data != nil{
+                var result = JSON(data:data!)
+                //print(result)
+                let itemName = result["Response"]["data"]["inventoryItem"]["itemName"]
+                print(itemName)
+
+            
+                //let jsonItemCount = result["Response"]["data"]["saleItemCategories"][2]["saleItems"].arrayValue.count
+                //print ("Number of Exotics", jsonItemCount)
+                
+                //self.interfaceTable?.setNumberOfRows(jsonItemCount, withRowType: "ServerTableRowController")
+                //for var index = 0; index < jsonItemCount; ++index{
+                   // print(result["Response"]["data"]["saleItemCategories"][2]["saleItems"][index]["item"]["itemHash"])
+                    
+                    
+
+                //}
+                      }
+                
+            else{
+                print("Data is nil")
+            }
+            
+            
+            
+        })
+        
+        data.resume()
+
+
+        return itemName
+    
+    }
+    
     private func getXurInventory(){
         
         //apiKeyLabel?.setHidden(true)
@@ -42,26 +94,45 @@ class InterfaceController: WKInterfaceController {
         
         
         let request = NSMutableURLRequest(URL
-            : NSURL(string: "https://api.newrelic.com/v2/servers.json")!)
+            : NSURL(string: "https://www.bungie.net/Platform/Destiny/Advisors/Xur/")!)
         let session = NSURLSession.sharedSession()
         request.addValue(api, forHTTPHeaderField: "X-Api-Key")
         request.HTTPMethod = "GET" // or POST or whatever
         
-        print(request)
+        //print(request)
+        
         let data = session.dataTaskWithRequest(request, completionHandler:{ data, response, error -> Void in
             
             if data != nil{
                 var result = JSON(data:data!)
-                let jsonItemCount = result["servers"].arrayValue.count
+                print(result)
+                let jsonItemCount = result["Response"]["data"]["saleItemCategories"][2]["saleItems"].arrayValue.count
+                print ("Number of Exotics", jsonItemCount)
                 
                 self.interfaceTable?.setNumberOfRows(jsonItemCount, withRowType: "ServerTableRowController")
+                for var index = 0; index < jsonItemCount; ++index{
+                    let itemHash = result["Response"]["data"]["saleItemCategories"][2]["saleItems"][index]["item"]["itemHash"]
+                    
+                    print(itemHash)
+                    
+                    print(self.getItemDetails(String(itemHash)))
+                    
+                    
+                }
                 
-                for item in result["servers"].arrayValue.enumerate(){
+                
+                
+                /*
+                for item in result["Response"]["data"]["saleItemCategories"][2]["categoryTitle"].arrayValue.enumerate(){
+                    
+                    
+                    
+                    print(item)
                     
                     //print(item["name"].stringValue, " - ", item["reporting"].stringValue)
                     //self.serverArray.append(item["name"].stringValue)
-                    let row = self.interfaceTable?.rowControllerAtIndex(item.index) as? ServerTableRowController
-                    row?.interfaceLabel.setText(item.element["name"].stringValue)
+                    let row = self.interfaceTable?.rowControllerAtIndex(item.index) as? InventoryTableRow
+                    row?.itemName.setText(item.element["name"].stringValue)
                     row?.ID.setText(String(item.element["id"].int32Value))
                     
                     print(String(item.element["id"].int32Value))
@@ -69,27 +140,29 @@ class InterfaceController: WKInterfaceController {
                     if(item.element["reporting"].boolValue==true)
                     {
                         print(item.element["name"], " is ", item.element["reporting"].boolValue)
-                        row?.interfaceImage.setImage(UIImage(named:onlineName))
+                        row?.itemIcon.setImage(UIImage(named:onlineName))
                     }
                     
                     if(item.element["reporting"].boolValue == false)
                     {
                         print(item.element["name"], " is ", item.element["reporting"].boolValue)
-                        row?.interfaceImage.setImage(UIImage(named:offlineName))
+                        row?.itemIcon.setImage(UIImage(named:offlineName))
                         
                     }
                     
-                    self.idArray.append(String(item.element["id"].int32Value))
+                    //self.idArray.append(String(item.element["id"].int32Value))
                     
                 }
+*/
             }
+
             else{
                 print("Data is nil")
             }
+
             
             
-            
-        })
+                })
         
         data.resume()
         

@@ -8,13 +8,10 @@
 
 import WatchKit
 
-class ServerTableRowController: NSObject{
+class InventoryTableRow: NSObject{
     
-    @IBOutlet weak var interfaceImage: WKInterfaceImage!
-    @IBOutlet weak var interfaceLabel: WKInterfaceLabel!
+    @IBOutlet weak var itemIcon: WKInterfaceImage!
+    @IBOutlet weak var itemName: WKInterfaceLabel!
     @IBOutlet weak var ID: WKInterfaceLabel!
-    @IBOutlet weak var serverDiskIO: WKInterfaceLabel!
-    @IBOutlet weak var serverMemory: WKInterfaceLabel!
-    @IBOutlet weak var serverDisk: WKInterfaceLabel!
     
 }

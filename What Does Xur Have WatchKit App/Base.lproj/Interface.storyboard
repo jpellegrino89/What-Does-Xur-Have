@@ -12,8 +12,13 @@
                     <items>
                         <table alignment="left" id="jSq-vb-PjQ">
                             <items>
-                                <tableRow id="7AZ-zo-kDI">
-                                    <group key="rootItem" width="1" alignment="left" id="7gZ-yF-GtV"/>
+                                <tableRow id="7AZ-zo-kDI" customClass="InventoryTableRow" customModule="What_Does_Xur_Have">
+                                    <group key="rootItem" width="1" alignment="left" id="7gZ-yF-GtV">
+                                        <items>
+                                            <imageView width="30" alignment="left" id="Es2-Td-ntn"/>
+                                            <label alignment="center" verticalAlignment="center" text="Label" id="EpI-Iv-StT"/>
+                                        </items>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>
